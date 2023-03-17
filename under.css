@@ -1,0 +1,151 @@
+body{
+    background-color:aliceblue;
+    background-color:whitesmoke;
+    background: url(./assets/underph1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1540px 1400px;
+    
+    
+   
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.1rem;
+    line-height: 1;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: darkblue;
+    background-color:lightsky blue;
+    
+}
+.logo{
+    width: 40px;
+    align-items: center;
+    padding-right: 8px;
+}
+
+.maindiv{
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 50px;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    
+    
+    
+    
+    background-size: 100% 100%;
+    opacity: 0.7;
+    animation: slider 12s infinite linear ;
+    animation-fill-mode: forwards;
+    display: flex;
+    justify-content: center;
+    
+
+    
+    
+}
+.content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* @keyframes slider{
+    0%{ background-image: url(./assets/conts.jpg); }
+
+    35%{ background-image: url(./assets/const2.jpg);   }
+
+    75%{ background-image: url(./assets/const5.jpg);}
+} */
+.ov{
+    display: flex;
+    justify-content: center;
+    
+   
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.ov1{
+    width: 300px;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.pitch{
+    display: flex;
+    justify-content: center;
+    text-align:justify;
+    width: 300px;
+    font-size: large;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    font-family: monospace;
+    line-height: 30px;
+    
+}
+
+.contacts{
+    display:flex;
+    flex-direction: column;
+}
+
+.whatsapp{
+    text-decoration: none;
+    /* background-color: greenyellow; */
+    text-align: center;
+    padding: 2px;
+    color: rgb(16, 93, 31);
+    font-size: 25px;
+}
+
+.whatsapp:hover{
+    /* box-shadow: 0 0 1px 1px white; */
+    color:green;
+    /* background-color: white; */
+}
+
+.linkedin{
+    color: rgb(50, 20, 120);
+    /* background-color: rgb(25, 127, 196); */
+    padding: 2px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.linkedin:hover{
+    color: #053249;
+    /* background-color: white; */
+}
+
+@media (max-width:450px){
+    .ov{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+       
+        font-weight:600;
+        font-size: 25px;
+    }
+
+
+}
+    
